@@ -1,0 +1,27 @@
+{"name":"بـلاك","سورس":"﴿يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا نِعْمَةَ اللهِ عَلَيْكُمْ﴾",
+
+"logo":"https://telegra.ph/file/b330932f9924c8dabc0bf.jpg",
+
+"stack":
+
+"container",
+
+"repository":
+
+"https://t.me/picth0n",
+
+"keywords":
+
+["python","chatbot","telegrambot"],
+
+"website":"https://t.me/picth0n","env":
+ 
+"APP_ID":{"description":"الايـبـي ايــدي","value":"","required":true},
+                                      
+"APP_HASH":{"description":"الايـبـي هــاش","value":"","required":true},
+                                      
+"TERMUX":{"description":"كود تيرمكس","value":"","required":true},
+                                      
+"TOKEN":{"description":"توكن البوت","value":"","required":true},
+                                      
+"BOT_USERNAME":{"description":"يوزر البوت بدون ـ@ـ","value":"","required":true}}}
