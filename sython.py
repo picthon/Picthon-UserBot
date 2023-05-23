@@ -125,7 +125,7 @@ async def OwnerStart(event):
 async def update(event):
     await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
     await sython.disconnect()
-    await sython.send_message("me", "اكتملت اعادة تشغيل السورس !")و
+    await sython.send_message("me", "اكتملت اعادة تشغيل السورس !")
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع المليار"))
 async def _(event):
