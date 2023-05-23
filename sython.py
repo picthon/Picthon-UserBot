@@ -236,6 +236,7 @@ GCAST_BLACKLIST = [
 DEVS = [
     5448642653,
 ]
+
 def calc(num1, num2, fun):
     if fun == "+":
         return num1 + num2
@@ -361,7 +362,7 @@ async def spam_function(event, sandy, cat, sleeptimem, sleeptimet, DelaySpam=Fal
             )
             await _catutils.unsavegif(event, sandy)
             await asyncio.sleep(sleeptimem)
-            elif event.reply_to_msg_id and sandy.text:
+    elif event.reply_to_msg_id and sandy.text:
         spam_message = sandy.text
         for _ in range(counter):
             await event.client.send_message(event.chat_id, spam_message)
