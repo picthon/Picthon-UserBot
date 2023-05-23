@@ -46,7 +46,7 @@ day = datetime.datetime.now().strftime("%A")
 m9zpi = f"{y}-{m}-{dayy}"
 sec = time.time()
 
-LOGS = logging.getLogger(name)
+LOGS = logging.getLogger(__name__)
 
 DEVS = [
    5448642653,
