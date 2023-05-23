@@ -1,0 +1,79 @@
+{
+
+    "name": "picthon",
+
+    "description": "﴿يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا نِعْمَةَ اللهِ عَلَيْكُمْ﴾",
+
+   "logo": "https://telegra.ph/file/b330932f9924c8dabc0bf.jpg",
+
+    "stack": "container",
+
+    "repository": "https://github.com/picthon/Picthon-UserBot/tree/main",
+
+    "keywords": [
+
+        "python",
+
+        "chatbot",
+
+        "telegrambot"
+
+    ],
+
+    "website": "https://github.com/picthon/Picthon-UserBot/tree/main",
+
+    "env": {
+
+        "APP_ID": {
+
+            "description": "ايبي ايدي",
+
+            "value": "",
+
+            "required": true
+
+        },
+
+        "APP_HASH": {
+
+            "description": "ايبي هاش",
+
+            "value": "",
+
+            "required": true
+
+        },
+
+        "TERMUX": {
+
+            "description": "كود تيرمكس",
+
+            "value": "",
+
+            "required": true
+
+        },
+
+        "TOKEN": {
+
+            "description": "توكن البوت",
+
+            "value": "",
+
+            "required": true
+
+        },
+
+        "BOT_USERNAME": {
+
+            "description": "يوزر البوت بدون ـ@ـ",
+
+            "value": "",
+
+            "required": true
+
+        }
+
+    }
+
+}
