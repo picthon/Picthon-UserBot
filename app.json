@@ -14,7 +14,7 @@
 
 ["python","chatbot","telegrambot"],
 
-"website":"https://t.me/picth0n","env":
+"website":"https://t.me/picth0n",
  
 "APP_ID":{"description":"الايـبـي ايــدي","value":"","required":true},
                                       
