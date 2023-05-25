@@ -66,6 +66,12 @@ async def join_channel():
         pass
 
 
+@sython.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython1(JoinChannelRequest("@picth0n"))
+    except BaseException:
+        pass
 
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.الاوامر"))
