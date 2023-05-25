@@ -272,7 +272,7 @@ async def _(event):
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
 𝐔𝐒𝐄𝐑 : @{username}        
-CH / PICTH0N - @a_t_9
+CH / @PICTH0N - @a_t_9
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
